@@ -8,7 +8,7 @@ class TreeNode<E extends Comparable<E>> {
 }
 
 public class BinarySearchTreeImpl<E extends Comparable<E>> implements BinarySearchTree<E> {
-    TreeNode root;
+    private TreeNode root;
 
     public int size() { return 0; }
 
