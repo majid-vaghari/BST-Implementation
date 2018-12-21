@@ -1,5 +1,3 @@
-package edu.sharif.math.dsfall2018.bst;
-
 import java.util.Iterator;
 
 class TreeNode<E extends Comparable<E>> {
@@ -14,7 +12,7 @@ public class BinarySearchTreeImpl<E extends Comparable<E>> implements BinarySear
 
     public boolean contains(E e) { return true; }
 
-    public Iterator<E> preOrder(E e) { return null; }
+    public Iterator<E> preOrder() { return null; }
 
     public void add(E e) { }
 

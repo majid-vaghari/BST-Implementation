@@ -1,5 +1,3 @@
-package edu.sharif.math.dsfall2018.bst;
-
 import java.util.Iterator;
 
 public interface BinarySearchTree<E extends Comparable<E>> {
@@ -21,7 +19,7 @@ public interface BinarySearchTree<E extends Comparable<E>> {
      *
      * @return an {@code Iterator} over the elements in this collection
      */
-    Iterator<E> preOrder(E e);
+    Iterator<E> preOrder();
 
     void add(E e);
 
