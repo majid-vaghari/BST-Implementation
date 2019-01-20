@@ -93,7 +93,7 @@ public class BinarySearchTreeTest {
         bst.add(31);
         bst.add(55);
         bst.add(93);
-        assertEquals(6, bst.size());
+        assertEquals(5, bst.size());
     }
 
     @Test
