@@ -1,9 +1,5 @@
 import java.util.Iterator;
 
-class TreeNode<E extends Comparable<E>> {
-    TreeNode<E> left, right;
-    E element;
-}
 
 public class BinarySearchTreeImpl<E extends Comparable<E>> implements BinarySearchTree<E> {
     private TreeNode root;
